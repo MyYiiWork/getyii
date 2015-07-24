@@ -24,6 +24,14 @@ body > iframe {
     padding-right: 0
 }
 
+.pl10 {
+    padding-left: 10px;
+}
+
+.pr10 {
+    padding-right: 10px;
+}
+
 .p0 {
     padding: 0
 }

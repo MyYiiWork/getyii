@@ -12,7 +12,7 @@
     </div>
 
     <div class="panel-body p0">
-        <dl class="dl-horizontal node-box mb0">
+        <dl class="dl-horizontal node-box mb0 pl10 pr10">
             <?php foreach ($nodes as $key => $value): ?>
                 <dt><?= $key ?></dt>
                 <dd>

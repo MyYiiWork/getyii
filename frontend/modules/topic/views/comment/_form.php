@@ -38,7 +38,7 @@ use yii\widgets\ActiveForm;
 
     <div class="form-group">
         <?= Html::submitButton(
-            $model->isNewRecord ? '创建评论' : '修改评论',
+            $model->isNewRecord ? '创建回复' : '修改回复',
             [
                 'class' => $model->isNewRecord ? 'btn btn-success' : 'btn btn-primary',
             ]
