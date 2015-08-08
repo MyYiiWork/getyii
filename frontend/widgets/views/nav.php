@@ -7,6 +7,7 @@
 use yii\bootstrap\Nav;
 use yii\bootstrap\NavBar;
 use yii\helpers\Html;
+use yii\helpers\Url;
 use common\models\PostMeta;
 use kartik\icons\Icon;
 
@@ -48,7 +49,7 @@ echo Nav::widget([
     ],
     'encodeLabels' => false
 ]);
-echo '<form class="navbar-form navbar-left" role="search" action="/search" method="get">
+echo '<form class="navbar-form navbar-left" role="search" action="'.Url::to(['/search']).'" method="get">
                 <div class="form-group">
                     <input type="text" value="' . $keyword . '" name="keyword" class="form-control search_input" id="navbar-search" placeholder="搜索..." data-placement="bottom" data-content="请输入要搜索的关键词！">
                 </div>

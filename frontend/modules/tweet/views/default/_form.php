@@ -7,7 +7,7 @@ use yii\widgets\ActiveForm;
 <div class="list-group-item">
 
     <?php $form = ActiveForm::begin([
-        'action' => '/tweet/default/create',
+        'action' => Yii::$app->urlManager->createUrl('/tweet/default/create'),
         'fieldConfig' => [
             'template' => "{input}\n{hint}\n{error}"
         ]
